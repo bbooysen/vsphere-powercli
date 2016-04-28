@@ -1,5 +1,5 @@
 #    Migrate a vSphere virtual machine between clusters, where the vdSwitch ports names are unique across clusters
-#    Power down the VM, assign the nic to a temporary dummy standard switch port group which exists on both clusters, migrate
+#    Power down the VM, assign the nic to a temporary dummy standard switch network label which exists on both clusters, migrate
 #    the VM to the new cluster, assign nic to correct port group at destination, power on, update VMtools.
 
 # Import powerCLI snapins so that this can be run in PowerShell
