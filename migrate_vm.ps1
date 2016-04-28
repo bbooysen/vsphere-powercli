@@ -1,4 +1,4 @@
-#    Migrate a vSphere virtual machine between clusters, where the vdSwitch ports name are unique across clusters
+#    Migrate a vSphere virtual machine between clusters, where the vdSwitch ports names are unique across clusters
 #    Power down the VM, assign the nic to a temporary dummy standard switch port group which exists on both clusters, migrate
 #    the VM to the new cluster, assign nic to correct port group at destination, power on, update VMtools.
 
